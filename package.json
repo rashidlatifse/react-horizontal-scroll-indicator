@@ -1,0 +1,46 @@
+{
+  "name": "react-horizontal-scroll-indicator",
+  "version": "1.0.0",
+  "description": "Jira-style custom draggable horizontal scrollbar indicator for React",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "src/HorizontalScrollWrapper.d.ts",
+  "files": [
+    "dist",
+    "src/HorizontalScrollWrapper.d.ts"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "scripts": {
+    "dev": "vite demo",
+    "build": "vite build",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0",
+    "react-draggable": ">=4.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-draggable": "^4.4.6",
+    "vite": "^5.4.14"
+  },
+  "keywords": [
+    "react",
+    "horizontal-scroll",
+    "scrollbar",
+    "custom-scrollbar",
+    "draggable",
+    "jira-style",
+    "scroll-indicator"
+  ],
+  "license": "MIT"
+}

@@ -1,0 +1,7 @@
+src/
+demo/
+node_modules/
+vite.config.js
+.gitignore
+.DS_Store
+*.tgz
